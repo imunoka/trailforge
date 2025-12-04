@@ -5,19 +5,19 @@ import "fmt"
 type Difficulty string
 
 const (
-	Easy		Difficulty = "Easy"
-	Medium	Difficulty = "Medium"
-	Hard		Difficulty = "Hard"
-	Beast		Difficulty = "Beast"
+	Easy Difficulty = "Easy"
+	Medium Difficulty = "Medium"
+	Hard Difficulty = "Hard"
+	Beast Difficulty = "Beast"
 )
 
 type Hike struct {
-	Name				string
-	Location		string
-	DistanceMi	float64
-	ElevGainFt	int
-	Difficulty	Difficulty
-	Solo				bool
+	Name string
+	Location string
+	DistanceMi float64
+	ElevGainFt int
+	Difficulty Difficulty
+	Solo bool
 }
 
 func (h Hike) String() string {
